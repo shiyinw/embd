@@ -1,46 +1,52 @@
 {
   "embeddings": [
     {
+      "tensorName": "STRING Fusion",
+      "tensorShape": [455, 64],
+      "tensorPath": "oss_data/fusion.bytes",
+      "metadataPath": "oss_data/fusion.tsv"
+    },
+    {
+      "tensorName": "STRING Cooccurence",
+      "tensorShape": [424, 64],
+      "tensorPath": "oss_data/cooccurence.bytes",
+      "metadataPath": "oss_data/cooccurence2.tsv"
+    },
+    {
+      "tensorName": "STRING Homology",
+      "tensorShape": [1417, 64],
+      "tensorPath": "oss_data/homology.bytes",
+      "metadataPath": "oss_data/homology2.tsv"
+    },
+    {
+      "tensorName": "STRING Coexpression",
+      "tensorShape": [2378, 64],
+      "tensorPath": "oss_data/coexpression.bytes",
+      "metadataPath": "oss_data/coexpression2.tsv"
+    },
+    {
+      "tensorName": "STRING Experiments",
+      "tensorShape": [2201, 64],
+      "tensorPath": "oss_data/experiments.bytes",
+      "metadataPath": "oss_data/experiments2.tsv"
+    },
+    {
+      "tensorName": "STRING Database",
+      "tensorShape": [1845, 64],
+      "tensorPath": "oss_data/database.bytes",
+      "metadataPath": "oss_data/database2.tsv"
+    },
+    {
       "tensorName": "STRING Textmining",
       "tensorShape": [2584, 64],
       "tensorPath": "oss_data/textmining.bytes",
       "metadataPath": "oss_data/textmining2.tsv"
     },
     {
-      "tensorName": "Word2Vec 10K",
-      "tensorShape": [10000, 200],
-      "tensorPath": "oss_data/word2vec_10000_200d_tensors.bytes",
-      "metadataPath": "oss_data/word2vec_10000_200d_labels.tsv"
-    },
-    {
-      "tensorName": "Word2Vec All",
-      "tensorShape": [71291, 200],
-      "tensorPath": "oss_data/word2vec_full_200d_tensors.bytes",
-      "metadataPath": "oss_data/word2vec_full_200d_labels.tsv",
-      "bookmarksPath": "oss_data/word2vec_full_bookmarks.txt"
-    },
-    {
-      "tensorName": "Mnist with images",
-      "tensorShape": [10000, 784],
-      "tensorPath": "oss_data/mnist_10k_784d_tensors.bytes",
-      "metadataPath": "oss_data/mnist_10k_784d_labels.tsv",
-      "sprite": {
-        "imagePath": "oss_data/mnist_10k_sprite.png",
-        "singleImageDim": [28, 28]
-      }
-    },
-    {
-      "tensorName": "Iris",
-      "tensorShape": [150, 4],
-      "tensorPath": "oss_data/iris_tensors.bytes",
-      "metadataPath": "oss_data/iris_labels.tsv"
-    },
-    {
-      "tensorName": "GNMT Interlingua",
-      "tensorShape": [9978, 1024],
-      "tensorPath": "oss_data/bnmt_enjako_interlingua_10k_1024_tensors.bytes",
-      "metadataPath": "oss_data/bnmt_enjako_interlingua_10k_1024_metadata.tsv",
-      "bookmarksPath": "oss_data/bnmt_enjako_interlingua_10k_1024_bookmarks.txt"
+      "tensorName": "STRING Combined Score",
+      "tensorShape": [2584, 64],
+      "tensorPath": "oss_data/combined_score.bytes",
+      "metadataPath": "oss_data/combined_score2.tsv"
     }
   ],
   "modelCheckpointPath": "Demo datasets"
