@@ -4,7 +4,7 @@
       "tensorName": "STRING Fusion",
       "tensorShape": [455, 64],
       "tensorPath": "oss_data/fusion.bytes",
-      "metadataPath": "oss_data/fusion.tsv"
+      "metadataPath": "oss_data/fusion2.tsv"
     },
     {
       "tensorName": "STRING Cooccurence",
