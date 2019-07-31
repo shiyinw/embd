@@ -19,6 +19,12 @@
       "metadataPath": "oss_data/whole_homology2.tsv"
     },
     {
+      "tensorName": "STRING Whole Database",
+      "tensorShape": [10955, 64],
+      "tensorPath": "oss_data/whole_database.bytes",
+      "metadataPath": "oss_data/whole_database2.tsv"
+    },
+    {
       "tensorName": "STRING Fusion",
       "tensorShape": [455, 64],
       "tensorPath": "oss_data/fusion.bytes",
