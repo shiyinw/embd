@@ -1,6 +1,24 @@
 {
   "embeddings": [
     {
+      "tensorName": "STRING Whole Fusion",
+      "tensorShape": [6325, 64],
+      "tensorPath": "oss_data/whole_fusion.bytes",
+      "metadataPath": "oss_data/whole_fusion2.tsv"
+    },
+    {
+      "tensorName": "STRING Whole Cooccurence",
+      "tensorShape": [2952, 64],
+      "tensorPath": "oss_data/whole_cooccurence.bytes",
+      "metadataPath": "oss_data/whole_cooccurence2.tsv"
+    },
+    {
+      "tensorName": "STRING Whole Homology",
+      "tensorShape": [13810, 64],
+      "tensorPath": "oss_data/whole_homology.bytes",
+      "metadataPath": "oss_data/whole_homology2.tsv"
+    },
+    {
       "tensorName": "STRING Fusion",
       "tensorShape": [455, 64],
       "tensorPath": "oss_data/fusion.bytes",
