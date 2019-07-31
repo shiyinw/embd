@@ -19,6 +19,18 @@
       "metadataPath": "oss_data/whole_homology2.tsv"
     },
     {
+      "tensorName": "STRING Whole Coexpression",
+      "tensorShape": [16760, 64],
+      "tensorPath": "oss_data/whole_coexpression.bytes",
+      "metadataPath": "oss_data/whole_coexpression2.tsv"
+    },
+    {
+      "tensorName": "STRING Whole Experiments",
+      "tensorShape": [16448, 64],
+      "tensorPath": "oss_data/whole_experiments.bytes",
+      "metadataPath": "oss_data/whole_experiments2.tsv"
+    },
+    {
       "tensorName": "STRING Whole Database",
       "tensorShape": [10955, 64],
       "tensorPath": "oss_data/whole_database.bytes",
