@@ -37,6 +37,18 @@
       "metadataPath": "oss_data/whole_database2.tsv"
     },
     {
+      "tensorName": "STRING Whole Textmining",
+      "tensorShape": [19041, 64],
+      "tensorPath": "oss_data/whole_textmining.bytes",
+      "metadataPath": "oss_data/whole_textmining2.tsv"
+    },
+    {
+      "tensorName": "STRING Whole Combined Score",
+      "tensorShape": [19344, 64],
+      "tensorPath": "oss_data/whole_combined_score.bytes",
+      "metadataPath": "oss_data/whole_combined_score2.tsv"
+    },
+    {
       "tensorName": "STRING Fusion",
       "tensorShape": [455, 64],
       "tensorPath": "oss_data/fusion.bytes",
